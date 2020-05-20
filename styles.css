@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html, body {
+	height: 100%;
+	font: normal 18px/1.5 Raleway, sans-serif;
+	color: #333;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #fff;
+}
+
+#page {
+	position: relative;
+	min-height: 100%;
+}
+
+.container {
+	position: relative;
+	min-width: 300px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header img {
+	display: block;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0;
+	padding: .25em .5em;
+	list-style: none;
+	background: #3f51b5;
+}
+
+nav li {
+	display: inline-block;
+	color: #fff;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav li::after {
+	content: '|';
+	padding: 0 .5em;
+	color: #fff;
+}
+
+nav li:last-child::after {
+	content: '';
+	padding: 0;
+}
+
+main {
+	position: relative;
+	padding-bottom: 2em;
+}
+
+main h1 {
+	margin: .5em 0;
+	font-size: 2em;
+	font-weight: normal;
+	color: #3f51b5;
+}
+
+main h2 {
+	margin: .5em 0;
+	font-size: 1.666em;
+	font-weight: normal;
+	color: #3f51b5;
+}
+
+main p {
+	margin: .5em 0 0 0;
+}
+
+main ol {
+	margin-top: 0;
+}
+
+img.img-left {
+	float: left;
+	margin: .5em 1em 1em 0;
+}
+
+img.img-right {
+	float: right;
+	margin: .5em 0 1em 1em;
+}
+
+img.profil {
+	width: 20%;
+	max-width: 200px;
+}
+
+img.map {
+	width: 33%;
+	max-width: 800px;
+}
+
+img.mymap {
+	width: 60%;
+	max-width: 1200px;
+}
+
+img.decor {
+	width: 33%;
+	max-width: 800px;
+}
+
+ul.imagelist {
+	margin: 0 0 1em 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+ul.imagelist li {
+	display: inline-block;
+	width: 300px;
+	margin: .5em;
+	padding: .5em;
+	background: #eceff1;
+	border-radius: 5px;
+	vertical-align: top;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 3px 3px rgba(96, 125, 139, .5), inset 0px 0px 3px 1px rgba(96, 125, 139, .25);
+	   -moz-box-shadow: 0px 3px 3px rgba(96, 125, 139, .5), inset 0px 0px 3px 1px rgba(96, 125, 139, .25);
+	        box-shadow: 0px 3px 3px rgba(96, 125, 139, .5), inset 0px 0px 3px 1px rgba(96, 125, 139, .25);
+}
+
+ul.imagelist a {
+	font-size: .9em;
+	color: #37474f;
+	text-decoration: none;
+}
+
+ul.imagelist a:hover {
+	text-decoration: underline;
+}
+
+ul.imagelist img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2em;
+	padding-top: .25em;
+	border-top: 1px solid #3F51B5;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
